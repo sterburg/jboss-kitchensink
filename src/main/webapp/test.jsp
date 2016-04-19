@@ -9,7 +9,7 @@
   InitialContext ic; 
   try {
   ic = new InitialContext();
-  ds = (DataSource)ic.lookup( "java:/DefaultDS" );
+  ds = (DataSource)ic.lookup( "java:jboss/datasources/my_oracle" );
   con = ds.getConnection(); 
   pr = con.prepareStatement("SELECT USERID, PASSWD FROM JMS_USERS");
   ResultSet rs = pr.executeQuery();
