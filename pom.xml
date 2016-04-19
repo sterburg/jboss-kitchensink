@@ -46,7 +46,7 @@
             line below to use version 1.0.4.Final-redhat-11 which is a release certified 
             to work with JBoss EAP 6. It requires you have access to the JBoss EAP 6 
             maven repository. -->
-        <version.org.jboss.bom>1.0.4.Final-redhat-11</version.org.jboss.bom>
+        <version.org.jboss.bom>1.0.4.Final-redhat-9</version.org.jboss.bom>
 
         <version.org.hibernate-jpamodelgen>1.1.1.Final</version.org.hibernate-jpamodelgen>
 
